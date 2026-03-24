@@ -1,17 +1,21 @@
-# Nome do projeto
+# ROI of Education
 
-Escreva um ou dois parágrafos resumindo o objetivo do seu projeto. Lembrando que o objeto é desenvolver um sistema inteligente. Você deve mencionar o produto que está sendo desenvolvido, e não o que se espera obter com este produto.
+Este projeto desenvolve um sistema de análise preditiva baseado em ciência de dados para investigar a relação entre o investimento público em educação e indicadores socioeconômicos brasileiros. O sistema integra e processa séries históricas de dados oficiais — abrangendo gastos educacionais, crescimento do PIB, evolução do IDH e taxa de desemprego — e aplica modelos de regressão múltipla e série temporal para identificar padrões e correlações entre essas variáveis ao longo do tempo.
+
+A partir dessas análises, o sistema é capaz de gerar projeções sobre o comportamento futuro dos indicadores socioeconômicos com base em diferentes cenários de investimento educacional, bem como estimar tendências de alocação de recursos e seus impactos esperados. O produto final é um pipeline analítico reproduzível, documentado e orientado à tomada de decisão no contexto da governança pública federal brasileira.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Gabriel Castro Inacio
+* Lucas Diniz Leão
+* Nathalia Ramalho Abranches de Araujo
+* Rafael de Alcantara Aguiar Cruz
+* Daniel Guerra Costa
 
-## Professor
+## Professores
 
-* Nome completo do professor (Prof. Hugo Bastos de Paula)
+* Marco Paulo Soares Gomes
+* Gabriel Barbosa Fonseca
 
 ## Instruções de utilização
 
