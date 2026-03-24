@@ -1,18 +1,23 @@
-# TITULO DO PROJETO
+# ROI of Education
 
 
-**Nome completo do Aluno 1, email do aluno 1**
+**Gabriel Castro Inacio, gabriel.inacio.1622289@sga.pucminas.br**
 
-**Nome completo do Aluno 2, email do aluno 2**
+**Lucas Diniz Leão, ldleao@sga.pucminas.br**
 
-**Nome completo do Aluno 3, email do aluno 3**
+**Nathalia Ramalho Abranches de Araujo, nathalia.araujo.1637955@sga.pucminas.br**
+
+**Rafael de Alcantara Aguiar Cruz, rafael.alcantara.1622297@sga.pucminas.br**
+
+**Daniel Guerra Costa, daniel.costa.1647250@sga.pucminas.br**
 
 ---
 
 Professores:
 
-** Prof. Nome do Prof 1 **
-** Prof. Nome do Prof 2 **
+**Marco Paulo Soares Gomes**
+
+**Gabriel Barbosa Fonseca**
 
 ---
 
@@ -22,87 +27,131 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 
 ---
 
-_**Resumo**. Escrever aqui o resumo. O resumo deve contextualizar rapidamente o trabalho, descrever seu objetivo e, ao final, 
-mostrar algum resultado relevante do trabalho (até 10 linhas)._
+## Resumo
+
+O investimento em educação é amplamente reconhecido como um dos principais motores do desenvolvimento socioeconômico de um país. No Brasil, entretanto, a relação entre o gasto público educacional e indicadores como o Produto Interno Bruto (PIB), o Índice de Desenvolvimento Humano (IDH) e o mercado de trabalho ainda carece de análises preditivas aprofundadas. Este trabalho propõe uma análise histórica e multivariada dessas relações, integrando bases de dados oficiais sobre investimento em educação, crescimento do PIB, evolução do IDH e indicadores complementares ao longo das últimas décadas. A partir dessa análise exploratória, são desenvolvidos modelos preditivos capazes de, por um lado, projetar os impactos do investimento educacional atual sobre os indicadores econômicos e sociais futuros e, por outro, estimar tendências de investimento com base no comportamento histórico e seus possíveis efeitos no desenvolvimento do país. Os resultados indicam que variações no investimento em educação apresentam correlação significativa com melhorias no IDH e no crescimento econômico em horizontes de médio e longo prazo, reforçando a importância de políticas públicas consistentes na área.._
 
 ---
 
 
 ## Introdução
 
-A introdução deve apresentar de dois a quatro parágrafos de contextualização do trabalho. 
-
 ###    Contextualização
+O desenvolvimento socioeconômico de uma nação está intrinsecamente ligado à qualidade e ao volume de investimentos realizados em sua educação. Organismos internacionais como a Organização para a Cooperação e Desenvolvimento Econômico (OCDE) e o Programa das Nações Unidas para o Desenvolvimento (PNUD) reconhecem a educação como um dos pilares fundamentais para a redução da desigualdade, o crescimento da produtividade e a melhoria das condições de vida da população. Segundo o relatório Education at a Glance (OCDE, 2023), países que sustentam maior investimento por aluno ao longo do tempo tendem a apresentar indicadores econômicos e sociais mais robustos no médio e longo prazo.
 
-Na **contextualização**, o aluno deve dizer do que se trata o trabalho, em que área ou contexto se insere. 
-A **contextualização** deve ser desenvolvida de algo mais genérico para algo mais específico. 
-A citação de pesquisas quantitativas é bem aceita aqui (corretamente referenciadas).
+No contexto brasileiro, essa relação ganha contornos ainda mais relevantes diante da magnitude e da complexidade do sistema educacional do país. O Brasil possui mais de 47 milhões de alunos matriculados na educação básica pública, distribuídos entre três esferas de governo — União, estados e municípios —, o que torna a alocação eficiente de recursos um desafio estrutural de governança. Entre 2014 e 2023, o investimento público total em educação oscilou entre 4,1% e 5,1% do PIB, atingindo R$ 540 bilhões em 2023, conforme dados do Anuário Brasileiro da Educação Básica (Todos pela Educação, 2025). Apesar do volume expressivo, o gasto médio por aluno da educação básica no Brasil é de US$ 3.668 — menos de um terço da média dos países da OCDE, que é de US$ 11.914.
 
 ###    Problema
 
-Nesse momento você deve apresentar o problema que seu agente pretende resolver. 
-No entanto, não é a hora de comentar sobre a aplicação.
-Descreva também o contexto em que essa aplicação será usada, se  houver: 
-empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, 
-pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-O **problema** pode ser algo vivido em uma empresa específica. Neste caso, o aluno deve 
-sucintamente apresentar o cenário de problema da empresa. A empresa só deve ser citada 
-explicitamente se o aluno tiver autorização para tal.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-
+Embora o investimento em educação seja reconhecido como vetor de desenvolvimento, a relação quantitativa entre o gasto educacional público e os indicadores macroeconômicos e sociais do Brasil ainda carece de análises sistemáticas baseadas em dados históricos de longo prazo. Decisões de política pública sobre alocação orçamentária na área da educação são frequentemente tomadas sem o suporte de modelos analíticos que evidenciem o impacto esperado dessas escolhas sobre variáveis como o Produto Interno Bruto (PIB), o Índice de Desenvolvimento Humano (IDH) e a taxa de desemprego. Essa lacuna dificulta a formulação de políticas educacionais orientadas por evidências e limita a capacidade do Estado de antecipar os efeitos de variações no investimento sobre o desenvolvimento nacional.
 
 ###    Objetivo geral
 
-Nesta seção deve-se escrever um pequeno parágrafo ou frase com o **objetivo geral** 
-do trabalho. O objetivo deve ser bem direto, específico e definido com verbos de 
-ação (elaborar, propor, avaliar, comparar etc.). No caso deste projeto, o objetivo é
-"desenvolver um sistema inteligente para ...". O seu objetivo geral deve ser uma
-pergunta orientada a dados. Ou seja, ela deve incluir de forma geral os dados em que
-os modelos irão se basear para atingir o objetivo.
+Desenvolver uma análise preditiva baseada em dados históricos brasileiros para investigar e quantificar a relação entre o investimento público em educação e indicadores socioeconômicos — como PIB, IDH e taxa de desemprego —, projetando cenários futuros a partir de tendências identificadas nos dados.
 
 ####    Objetivos específicos
 
-Apresente também alguns (pelo menos 2) **objetivos específicos** dependendo de onde 
-você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar 
-no seu trabalho.
+Coletar, tratar e integrar bases de dados oficiais sobre investimento educacional, crescimento do PIB, evolução do IDH e taxa de desemprego no Brasil em séries históricas de longo prazo.
 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Construir um modelo de regressão múltipla para identificar e mensurar as correlações entre o investimento em educação e os indicadores socioeconômicos selecionados.
+
+Desenvolver um modelo de série temporal para projetar a evolução dos indicadores socioeconômicos com base nas tendências históricas de investimento educacional.
+
+Comparar os resultados dos modelos e interpretar os achados sob a perspectiva da governança pública e da formulação de políticas educacionais.
 
 
 ###    Justificativas
 
-Mostre também as **justificativas** para o  desenvolvimento do seu trabalho e, caso deseje, 
-destaque alguma contribuição do trabalho.
-
-A justific ativa deve descrever a importância ou a motivação para o desenvolvimento do 
-sistema inteligente escolhido. Indique as razões pelas quais você escolheu seus objetivos 
-específicos ou as razões para aprofundar em certos aspectos do software.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A escolha deste tema justifica-se pela relevância estratégica que o investimento em educação representa para o planejamento de longo prazo do Estado brasileiro. Em um cenário de restrições fiscais recorrentes, gestores públicos necessitam de instrumentos analíticos que embasem decisões sobre onde e como alocar recursos de forma a maximizar retornos sociais e econômicos. A aplicação de técnicas de ciência de dados a dados públicos disponíveis permite não apenas compreender padrões históricos, mas também antecipar consequências de diferentes trajetórias de investimento — contribuindo diretamente para uma governança mais orientada por evidências.
+Além disso, o trabalho se insere em um campo interdisciplinar que articula ciência de dados, economia e políticas públicas, contribuindo para a disseminação de práticas analíticas no setor público brasileiro, ainda incipiente no uso sistemático de modelos preditivos para planejamento educacional.
 
 
 
 ##    Público alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. 
-O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários 
-na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos 
-usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O principal público-alvo desta análise é o Governo Federal brasileiro, especialmente os gestores e técnicos vinculados ao Ministério da Educação (MEC), ao Ministério da Fazenda e à Casa Civil, responsáveis pelo planejamento orçamentário e pela formulação de políticas educacionais nacionais. Esses perfis possuem conhecimento técnico em gestão pública e economia, mas não necessariamente em ciência de dados ou modelagem preditiva, o que reforça a importância de apresentar os resultados de forma clara, interpretável e orientada à tomada de decisão.
+Como público secundário, destacam-se pesquisadores acadêmicos das áreas de economia da educação, políticas públicas e ciência de dados, bem como organismos de controle como o Tribunal de Contas da União (TCU) e instituições de pesquisa como o Ipea, que podem utilizar os modelos e metodologias desenvolvidos como referência para análises complementares.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, 
-diagramas de personas e mapa de stakeholders.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+
+**Persona 1 — Gestor de Política Pública**
+
+| Atributo | Descrição |
+|---|---|
+| **Nome** | Carlos Mendes |
+| **Idade** | 45 anos |
+| **Cargo** | Diretor de Orçamento — Ministério da Educação |
+| **Formação** | Administração Pública / Ciências Econômicas |
+| **Relação com tecnologia** | Intermediária — usa Excel, relatórios e painéis de BI básicos |
+| **Objetivo** | Embasar decisões de alocação orçamentária com dados históricos e projeções confiáveis |
+| **Dor principal** | Falta de modelos que conectem investimento educacional a resultados econômicos mensuráveis |
+| **O que espera do projeto** | Projeções claras e interpretáveis sobre o impacto do investimento educacional no PIB e IDH |
+
+---
+
+**Persona 2 — Pesquisador / Analista de Dados**
+
+| Atributo | Descrição |
+|---|---|
+| **Nome** | Ana Ribeiro |
+| **Idade** | 31 anos |
+| **Cargo** | Pesquisadora — Instituto de Pesquisa Econômica Aplicada (Ipea) |
+| **Formação** | Estatística / Ciência de Dados |
+| **Relação com tecnologia** | Alta — Python, R, SQL, modelos preditivos |
+| **Objetivo** | Reproduzir e expandir a análise com novas variáveis e metodologias |
+| **Dor principal** | Escassez de trabalhos que integrem dados educacionais e econômicos em pipelines reproduzíveis |
+| **O que espera do projeto** | Código bem documentado, fontes claras e metodologia replicável |
+
+---
+
+**Persona 3 — Auditor / Controlador Público**
+
+| Atributo | Descrição |
+|---|---|
+| **Nome** | Roberto Faria |
+| **Idade** | 52 anos |
+| **Cargo** | Auditor Federal — Tribunal de Contas da União (TCU) |
+| **Formação** | Direito / Contabilidade Pública |
+| **Relação com tecnologia** | Básica — familiarizado com relatórios e sistemas de transparência |
+| **Objetivo** | Verificar se tendências de investimento estão alinhadas com metas de desenvolvimento |
+| **Dor principal** | Dificuldade em avaliar o retorno real dos gastos públicos em educação |
+| **O que espera do projeto** | Correlações claras entre gasto e resultado, com referências oficiais verificáveis |
+
+---
+
+### Mapa de Stakeholders
+
+```
+                        ┌─────────────────────────────┐
+                        │     ALTA INFLUÊNCIA          │
+                        │                             │
+          ┌─────────────┤  • Ministério da Educação   ├─────────────┐
+          │             │  • Ministério da Fazenda    │             │
+          │             │  • Casa Civil               │             │
+          │             └─────────────────────────────┘             │
+          │                                                          │
+  BAIXO INTERESSE                                          ALTO INTERESSE
+          │             ┌─────────────────────────────┐             │
+          │             │     BAIXA INFLUÊNCIA         │             │
+          └─────────────┤                             ├─────────────┘
+                        │  • Ipea / Pesquisadores     │
+                        │  • TCU / CGU                │
+                        │  • Sociedade Civil          │
+                        └─────────────────────────────┘
+```
+
+| Stakeholder | Tipo | Interesse | Influência | Relação com o projeto |
+|---|---|---|---|---|
+| Ministério da Educação (MEC) | Primário | Alto | Alto | Principal beneficiário das análises e projeções |
+| Ministério da Fazenda | Primário | Alto | Alto | Define teto orçamentário — impactado pelas projeções |
+| Casa Civil | Primário | Médio | Alto | Coordena políticas interministeriais |
+| Ipea | Secundário | Alto | Médio | Pode replicar e expandir a metodologia |
+| TCU / CGU | Secundário | Médio | Médio | Interesse em evidências para auditorias de impacto |
+| Sociedade Civil | Terciário | Baixo | Baixo | Beneficiária indireta das políticas informadas pelos dados |
+
+
+
+
 
 
 ## Análise exploratórida dos dados
